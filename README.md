@@ -6,8 +6,15 @@
 
 > 该项目使用了AI协助完成。
 
-## 📖 项目简介
-针对于Steam端的游戏BloodStrike(译名:血战突袭)中登录时，非常非常简易的IP地区检测绕过工具。
+## 📖 工具介绍
+针对于Steam端的游戏BloodStrike(译名:血战突袭)中登录时，提示“由于地区限制无法登录”的解决补丁工具，非常-非常简易的IP地区检测绕过工具。
+而且在大陆内陆地区裸连亚服也才40ms左右延迟，这样可以解决进游戏必须挂加速器的问题。
+
+## 🚩 如何使用
+以下方法按你实际情况选择：
+  电脑"有"Python环境：直接下载源码中 main.py 文件，并自行方式执行。
+  电脑"无"Python环境：下载[Release](https://github.com/CN-Hobo/BloodStrike-region-bypasser/releases/latest)中预编译好的exe文件，可直接双击执行。
+*完成以上的启动操作后，点击“选择游戏文件夹”后选择你的 BLOODSTRIKE 游戏根目录，例如 D:\SteamLibrary\steamapps\common\BLOODSTRIKE 即可
 
 ## ✨ 主要原理
   1. 游戏启动时会向 https://mgbnaeast-g83naxx1ena.unisdk.easebar.com/g83naxx1ena/sdk/dlc_sync 发送POST请求
