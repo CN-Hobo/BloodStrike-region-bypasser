@@ -17,7 +17,7 @@
 - 完成以上的启动操作后，点击“选择游戏文件夹”后选择你的 BLOODSTRIKE 游戏根目录，例如 D:\SteamLibrary\steamapps\common\BLOODSTRIKE 即可
 
 ## ✨ 主要原理
-  1. 游戏启动时会向 https://mgbnaeast-g83naxx1ena.unisdk.easebar.com/g83naxx1ena/sdk/dlc_sync 发送POST请求
+  1. 游戏启动时会向 `https://mgbnaeast-g83naxx1ena.unisdk.easebar.com/g83naxx1ena/sdk/dlc_sync` 发送POST请求
   2. 其中请求参数中包含参数名为"aim_info"，且参数值中包含"country":"国际代码"，当国际代码为CN时游戏将会提示不支持该地区
   3. 工具通过直接改掉"aim_info"这个标识，让游戏找不到地方来检查玩家的地区，从而实现可全程裸连
 
