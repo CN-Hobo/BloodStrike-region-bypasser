@@ -1,4 +1,4 @@
-# BloodStrike-region-bypasser
+# BloodStrike-region-limit
 [![GitHub stars](https://img.shields.io/github/stars/CN-Hobo/BloodStrike-region-bypasser?style=flat-square)](https://github.com/CN-Hobo/BloodStrike-region-bypasser/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/CN-Hobo/BloodStrike-region-bypasser?style=flat-square)](https://github.com/CN-Hobo/BloodStrike-region-bypasser/fork)
 [![License](https://img.shields.io/badge/license-AGPL3.0-blue.svg?style=flat-square)](LICENSE)
